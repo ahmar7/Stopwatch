@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="top">
+    <div class="bg-primary  text-white main">
+        <h1 class="text1">Stop Watch</h1>
+    </div> <br>
+
+    <div class=" firsts">
+        <h5  class=" heading d-inline-block  text-dark  bg-warning  ">Mins</h5>
+        <h5  class=" heading d-inline-block  text-dark  bg-warning ">Secs</h5>
+        <h5  class=" heading d-inline-block  text-dark  bg-warning me-1 ">Milisecs</h5><br>
+
+        <h1 id="mins" class="num  d-inline-block text-white bg-danger">0</h1>
+        <h1 id="secs" class="num  d-inline-block text-white bg-danger">0</h1>
+        <h1 id="milisecs" class="num d-inline-block text-white bg-danger ">0</h1>
+        <br>
+
+        <button id="start" class="btn btn-white border border-2 border-secondary ms-2 "  onclick="start()" onmouseleave="this.style.backgroundColor=('white')" onmouseover="this.style.backgroundColor=('lime')" >Start</button>
+        <button id="stop" class="btn btn-white border border-2 border-secondary  ms-3" onclick="stop() " onmouseleave="this.style.backgroundColor=('white')" onmouseover="this.style.backgroundColor=('yellow')">Pause</button>
+        <button id="reset" class="btn btn-white  border border-2 border-secondary ms-3" onclick="reset()" onmouseleave="this.style.backgroundColor=('white')" onmouseover="this.style.backgroundColor=('red')">Reset</button>
+
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
